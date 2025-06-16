@@ -1,0 +1,62 @@
+﻿# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Bb]in/
+[Oo]bj/
+*.dll
+*.exe
+*.app
+*.apk
+*.aab
+*.xarchive
+*.nupkg
+
+# Maui
+*.xcarchive
+*.maui.*
+bin/
+obj/
+platforms/android/app/build/
+
+# User-specific files
+*.swp
+*~
+*.tmp
+*.log
+*.DS_Store
+
+# JetBrains Rider
+.idea/
+*.iml
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Git ignore settings
+*.orig
+
+# Android specific
+.gradle/
+*.apk
+*.ap_
+local.properties
+*.keystore
+*.jks
+
+# macOS/iOS (если будешь кроссплатформенно разрабатывать)
+*.xcuserstate
+*.xcworkspace/
+*.xcodeproj/
+*.plist
+.DS_Store
+
+# MAUI preview cache
+*.maui.*
