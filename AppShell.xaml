@@ -3,13 +3,13 @@
     x:Class="ExamGO.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:ExamGO"
+    xmlns:views="clr-namespace:ExamGO.Views"
     Shell.FlyoutBehavior="Disabled"
     Title="ExamGO">
 
     <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+        Title="Темы"
+        ContentTemplate="{DataTemplate views:ThemesPage}"
+        Route="ThemesPage" />
 
 </Shell>
